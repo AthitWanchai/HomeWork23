@@ -4,7 +4,7 @@ import Tables from "../components/Tables"
 import Container from '@mui/material/Container';
 import Divider from "../components/Divider";
 import Radio from "../components/Radio";
-import TableContainer from '@mui/material/TableContainer';
+
 
 function Product() {
     return (
@@ -12,14 +12,14 @@ function Product() {
             <Navber />
             <Container maxWidth="xl">
                 <div className="grid md:grid-cols-2 grid-cols-1 ">
-                    <div className="grid grid-cols-1 ">
+                    <div >
                         <Imge />
                     </div>
-                    <div className="grid grid-cols-1 ">
+                    <div >
                         <Tables />
                         <Divider />
                     </div>
-                    <div >
+                    <div className="col-span-2">
                         <Radio />
                     </div>
                 </div>

@@ -1,8 +1,8 @@
 export default function BasicTable() {
     return (
         <>
-            <section className="flex py-10 w-45">
-                <article className="shadow-lg p-4 border-2 rounded-lg h-80" >
+            <section className="flex pt-10 pb-5 max-w-full ">
+                <article className="shadow-lg p-2 border-2 rounded-lg " >
                     <h3 className="font-semibold text-lg text-gray-700 mb-2">Product Name</h3>
                     <p className="text-gray-500 mb-2">
                         Product description goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam interdum augue et uliamcorper aliquet.

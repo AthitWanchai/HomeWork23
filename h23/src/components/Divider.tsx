@@ -1,4 +1,3 @@
-
 import Table from '@mui/material/Table';
 import TableBody from '@mui/material/TableBody';
 import TableCell from '@mui/material/TableCell';
@@ -24,13 +23,13 @@ const rows = [
 
 export default function BasicTable() {
     return (
-        <section className="flex ">
+        <section >
             <TableContainer component={Paper} >
-                <Table aria-label="simple table">
-                    <TableBody>
+                <Table >
+                    <TableBody >
                         {rows.map((row) => (
-                            <TableRow key={row.name}>
-                                <TableCell component="th" scope="row">
+                            <TableRow key={row.name} >
+                                <TableCell component="th" scope="row" sx={{ margin: '10px', padding: '10px' }}>
                                     {row.name}
                                 </TableCell>
                             </TableRow>

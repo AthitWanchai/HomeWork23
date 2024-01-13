@@ -14,16 +14,11 @@ export default function RadioButtons() {
     };
 
     return (
-        <div className='pt-10'>
+        <div className='pt-5'>
             <TableContainer component={Paper}>
                 <TableBody>
                     <TableRow>
-                        <TableCell>
-                            fdff
-                        </TableCell>
-                    </TableRow>
-                    <TableRow>
-                        <TableCell>
+                        <TableCell >
                             <Radio
                                 checked={selectedValue === 'a'}
                                 onChange={handleChange}
@@ -31,6 +26,7 @@ export default function RadioButtons() {
                                 name="radio-buttons"
                                 inputProps={{ 'aria-label': 'A' }}
                             />
+                            <span>1</span>
                         </TableCell>
                         <TableCell>
                             <Radio
@@ -40,6 +36,7 @@ export default function RadioButtons() {
                                 name="radio-buttons"
                                 inputProps={{ 'aria-label': 'B' }}
                             />
+                            <span>2</span>
                         </TableCell>
                         <TableCell>
                             <Radio
@@ -49,6 +46,7 @@ export default function RadioButtons() {
                                 name="radio-buttons"
                                 inputProps={{ 'aria-label': 'C' }}
                             />
+                            <span>3</span>
                         </TableCell>
                         <TableCell>
                             <Radio
@@ -58,6 +56,7 @@ export default function RadioButtons() {
                                 name="radio-buttons"
                                 inputProps={{ 'aria-label': 'D' }}
                             />
+                            <span>4</span>
                         </TableCell>
                         <TableCell>
                             <Radio
@@ -67,6 +66,7 @@ export default function RadioButtons() {
                                 name="radio-buttons"
                                 inputProps={{ 'aria-label': 'E' }}
                             />
+                            <span>5</span>
                         </TableCell>
                     </TableRow>
                 </TableBody>

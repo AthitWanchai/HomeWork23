@@ -4,7 +4,7 @@ import CustomizedProgressBars from '../components/CustomizedProgressBars';
 function Imge() {
     return (
         <div className="container p-10 ">
-            <div className="relative  max-h-full overflow-hidden">
+            <div className="relative w-90 overflow-hidden">
                 <img
                     src={Img}
                     alt=""
