@@ -3,14 +3,15 @@ import Formbilling from "../components/Formbilling"
 import Yourcart from "../components/Yourcart"
 
 function Checkout() {
+    
     return (
         <div className="bg-slate-100">
             <Checkout_Form />
-            <div className="container mx-auto grid grid-cols-2 ">
+            <div className="container mx-auto px-12 grid grid-cols-1 gap-12 md:grid-cols-2 ">
                 <div>
                 <Formbilling />
                 </div>
-                <div className="pl-52">
+                <div >
                     <Yourcart/>
                 </div>
             </div>
